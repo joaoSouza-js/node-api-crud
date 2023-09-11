@@ -1,0 +1,28 @@
+POST http://localhost:3333/videos 
+content-type: application/json
+
+{
+    "title": "video node",
+    "description": "a super video",
+    "duration": 450000
+}
+
+###
+GET  http://localhost:3333/videos
+
+###
+PUT  http://localhost:3333/videos/a25df91c-1a08-4561-88cd-ede990c61d37
+content-type: application/json
+
+{
+    "title": "video node fantastic",
+    "description": "Wed, 21 Oct 2015 18:27:50 GMT",
+    "duration": 450000
+}
+
+###
+DELETE http://localhost:3333/videos/a25df91c-1a08-4561-88cd-ede990c61d37
+
+
+
+

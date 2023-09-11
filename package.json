@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "type": "module",
+  "name": "class-node-near-zero",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": " tsx watch  src/server.ts",
+    "create-tables": "tsx createTable",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fastify": "^4.22.2",
+    "postgres": "^3.3.5",
+    "tsx": "^3.12.8"
+  }
+}
